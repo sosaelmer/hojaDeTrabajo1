@@ -273,26 +273,13 @@
   }
 
   /* Responsive Styles */
-  @media screen and (max-width: 767px) {
-    .card-container > *:not(.circle-link) ,
-    .terminal {
-      width: 100%;
-    }
-
-    .card:not(.highlight-card) {
-      height: 16px;
-      margin: 8px 0;
-    }
-
-    .card.highlight-card span {
-      margin-left: 72px;
-    }
-
-    svg#rocket-smoke {
-      right: 120px;
-      transform: rotate(-5deg);
-    }
-  }
+  @media (max-width: 600px) {
+            body {
+                background-color: red; /* Color de fondo rojo */
+                padding: 0; /* Padding establecido a 0 */
+                margin: 0; /* Margen establecido a 0 */
+            }
+        }
 
   @media screen and (max-width: 575px) {
     svg#rocket-smoke {
